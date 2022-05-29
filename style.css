@@ -22,6 +22,15 @@ footer{background: #0B1D51; padding: 10px; color: #fff; text-align: center; font
 .about-main p,ul,li{opacity: 80%;}
 .heading-about{color: #F05D23; font-weight: 700;}
 .core{color: #F05D23; padding: 0 20px; margin-top: 50px; text-align: center; font-weight: 700;}
+/*-------------services---------------*/
+.services-list{display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 5%;}
+.services-item{background: url('assets/service-item-bg.jpg'); opacity: 65%; color: #fff; border-top: 4px solid #F05D23;}
+.services-item:hover{background: url('assets/service-item-bg.jpg'); opacity: 90%; color: #fff; border-bottom: 4px solid #F05D23; border-top: hidden; zoom: 150%;}
+.item-symbol{font-size: 40px; display: grid; place-items: center; padding-top: 20px; color: #F05D23;}
+.services-list h2{padding: 5%; text-align: center; font-size: 26px; font-weight: 700px;}
+.award{width: 20%; height: 20%; display: block; margin-left: auto; margin-right: auto;}
+.services-heading h1{text-align: center; font-size: 4em; margin-top: 20px; color: #F05D23; font-weight: 700;}
+.services-heading p{text-align: center; font-size: 22px; opacity: 80%; background: #0B1D51; padding: 6px; color: #fff; border-bottom: 1px solid #F05D23;}
 /*------------@media about ------------*/
 @media screen and (max-width:600px){
   .about-section{grid-template-columns: 1fr;}
