@@ -35,3 +35,7 @@ footer{background: #0B1D51; padding: 10px; color: #fff; text-align: center; font
 @media screen and (max-width:600px){
   .about-section{grid-template-columns: 1fr;}
 }
+/*-----------------@media services---------------------*/
+@media screen and (max-width: 600px){
+  .services-list{grid-template-columns: 1fr;}
+}
